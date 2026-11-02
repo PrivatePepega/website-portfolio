@@ -11,9 +11,9 @@ export const metadata: Metadata = {
   title: "Dev Portfolio",
   description: "Developer portfolio",
   icons: {
-    icon: "/mini%20happy%20icon.png",
-    shortcut: "/mini%20happy%20icon.png",
-    apple: "/mini%20happy%20icon.png",
+    icon: "/mini-happy-icon.png",
+    shortcut: "/mini-happy-icon.png",
+    apple: "/mini-happy-icon.png",
   },
   openGraph: {
     title: "Dev Portfolio",

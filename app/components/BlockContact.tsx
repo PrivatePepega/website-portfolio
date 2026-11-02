@@ -2,7 +2,8 @@
 
 // Assets
 import { useEffect, useMemo, useState } from "react";
-import Image from "next/image";
+import EmailIcon from "../assets/icons/email-icon.svg";
+import LinkedInIcon from "../assets/icons/linkedin-icon.svg";
 
 const baseServices = [
   "Frontend Dev",
@@ -29,7 +30,7 @@ const contactLinks = [
   {
     label: "fernandojcastellanos@gmail.com",
     href: "mailto:fernandojcastellanos@gmail.com",
-    icon: "/icons/email-icon.svg",
+    icon: EmailIcon,
     alt: "Email icon",
   },
   // {
@@ -41,7 +42,7 @@ const contactLinks = [
   {
     label: "LinkedIn",
     href: "https://www.linkedin.com/in/fernando-castellanos-03a484160/",
-    icon: "/icons/linkedin-icon.svg",
+    icon: LinkedInIcon,
     alt: "LinkedIn icon",
   },
   // {
@@ -93,7 +94,7 @@ const BlockContact = () => {
 
       {/* Contact links */}
       <div className="my-12 flex flex-col gap-10">
-        {contactLinks.map(({ label, href, icon, alt }) => (
+        {contactLinks.map(({ label, href, icon: Icon, alt }) => (
           <a
             key={label}
             className="flex items-center justify-center gap-3 transition-opacity duration-200 hover:opacity-70"
@@ -101,7 +102,7 @@ const BlockContact = () => {
             target={href.startsWith("mailto:") ? undefined : "_blank"}
             rel={href.startsWith("mailto:") ? undefined : "noreferrer"}
           >
-            <Image className="h-7 w-7" src={icon} alt={alt} width={28} height={28} />
+            <Icon className="h-7 w-7" aria-label={alt} />
             <p>{label}</p>
           </a>
         ))}
