@@ -29,10 +29,10 @@ const App = () => {
         <div className="mx-auto max-w-3xl">
           <div className="mt-8 mb-8 space-y-6 text-lg leading-relaxed text-neutral-300 pt-24 pb-24">
             <div>
-              <p>Wanna be movie director with an Advertising Degree.</p>
+              <p>A wanna be movie director with an Advertising Degree.</p>
               <p>
                 Creative, movie production, video recording/editing, 2d/3d
-                animation background.
+                animation freelance background.
               </p>
             </div>
 
