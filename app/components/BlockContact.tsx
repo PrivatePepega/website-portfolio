@@ -20,6 +20,8 @@ const baseServices = [
   "Branding",
   "Teamwork",
   "Decision Making",
+  "Writting",
+  "Communications"
 
 ];
 
