@@ -2,6 +2,7 @@
 
 // Assets
 import { useEffect, useMemo, useState } from "react";
+import Image from "next/image";
 import EmailIcon from "../assets/icons/email-icon.svg";
 import LinkedInIcon from "../assets/icons/linkedin-icon.svg";
 
@@ -94,7 +95,7 @@ const BlockContact = () => {
 
       {/* Contact links */}
       <div className="my-12 flex flex-col gap-10">
-        {contactLinks.map(({ label, href, icon: Icon, alt }) => (
+        {contactLinks.map(({ label, href, icon, alt }) => (
           <a
             key={label}
             className="flex items-center justify-center gap-3 transition-opacity duration-200 hover:opacity-70"
@@ -102,7 +103,7 @@ const BlockContact = () => {
             target={href.startsWith("mailto:") ? undefined : "_blank"}
             rel={href.startsWith("mailto:") ? undefined : "noreferrer"}
           >
-            <Icon className="h-7 w-7" aria-label={alt} />
+            <Image className="h-7 w-7" src={icon} alt={alt} width={28} height={28} />
             <p>{label}</p>
           </a>
         ))}
