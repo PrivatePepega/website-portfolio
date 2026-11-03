@@ -27,6 +27,7 @@ const baseSkills = [
   "Debugging",
   "Docker",
   "CI/CD",
+  "AWS"
 
 ];
 

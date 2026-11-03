@@ -108,6 +108,43 @@ const BlockContact = () => {
           </a>
         ))}
       </div>
+
+      {/* Video sections */}
+      <div className="w-full max-w-5xl mx-6 mt-10">
+        <div className="flex flex-col md:flex-row-reverse gap-6 md:gap-8">
+          {/* Video 1: Video Introduction - on RIGHT on desktop, TOP on mobile */}
+          <div className="flex-1 min-w-0">
+            <h3 className="text-center text-lg font-medium mb-3">Video Introduction(30s)</h3>
+            <div className="relative aspect-video w-full rounded-lg overflow-hidden border-2 border-white/20">
+              <iframe
+                className="absolute inset-0 w-full h-full"
+                src="https://www.youtube.com/embed/_VHrIjNrMyc"
+                title="Video Introduction"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              />
+            </div>
+          </div>
+
+          {/* Video 2: Art Portfolio - on LEFT on desktop, BOTTOM on mobile */}
+          <div className="flex-1 min-w-0">
+            <h3 className="text-center text-lg font-medium mb-3">Art Portfolio(1m50s)</h3>
+            <div className="relative aspect-video w-full rounded-lg overflow-hidden border-2 border-white/20">
+              <iframe
+                className="absolute inset-0 w-full h-full"
+                src="https://www.youtube.com/embed/VjgM3-lPFLw"
+                title="Art Portfolio"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
