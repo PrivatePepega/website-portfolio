@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://maxfe.github.io/"),
+  metadataBase: new URL("https://privatepepega.github.io/website-portfolio/"),
   title: "Dev Portfolio",
   description: "Developer portfolio",
   icons: {
