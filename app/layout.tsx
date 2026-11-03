@@ -22,22 +22,11 @@ export const metadata: Metadata = {
     url: "https://privatepepega.github.io/website-portfolio/",
     siteName: "Dev Portfolio",
     type: "website",
-    images: [
-      {
-        url: "https://privatepepega.github.io/website-portfolio/happy-icon.png",
-        width: 512,
-        height: 512,
-        alt: "Dev Portfolio",
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Dev Portfolio",
     description: "Developer portfolio",
-    images: [
-      "https://privatepepega.github.io/website-portfolio/happy-icon.png",
-    ],
   },
 };
 
