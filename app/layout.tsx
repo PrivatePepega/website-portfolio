@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     description: "Developer portfolio",
     images: [
       {
-        url: "https://privatepepega.github.io/website-portfolio/happy-icon.png",
+        url: "https://raw.githubusercontent.com/PrivatePepega/website-portfolio/refs/heads/main/public/happy-icon.png",
         width: 512,
         height: 512,
         alt: "Dev Portfolio",
