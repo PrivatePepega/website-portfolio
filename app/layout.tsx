@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     siteName: "Dev Portfolio",
     type: "website",
     images: [
-      "https://privatepepega.github.io/website-portfolio/happy-icon.png",
+      "https://privatepepega.github.io/website-portfolio/og.png",
     ],
   },
   twitter: {
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     title: "Dev Portfolio",
     description: "Developer portfolio",
     images: [
-      "https://privatepepega.github.io/website-portfolio/happy-icon.png",
+      "https://privatepepega.github.io/website-portfolio/og.png",
     ],
   },
 };
