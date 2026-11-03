@@ -19,13 +19,24 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Dev Portfolio",
     description: "Developer portfolio",
+    url: "https://privatepepega.github.io/website-portfolio/",
+    siteName: "Dev Portfolio",
+    type: "website",
     images: [
       {
-        url: "https://raw.githubusercontent.com/PrivatePepega/website-portfolio/refs/heads/main/public/happy-icon.png",
+        url: "https://privatepepega.github.io/website-portfolio/happy-icon.png",
         width: 512,
         height: 512,
         alt: "Dev Portfolio",
       },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Dev Portfolio",
+    description: "Developer portfolio",
+    images: [
+      "https://privatepepega.github.io/website-portfolio/happy-icon.png",
     ],
   },
 };
