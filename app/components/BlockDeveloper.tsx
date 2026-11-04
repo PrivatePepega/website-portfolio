@@ -29,7 +29,9 @@ const baseSkills = [
   "CI/CD",
   "AWS",
   "Ai",
-  "Langraph"
+  "Langraph",
+  "Langsmith",
+  "RAG"
 
 ];
 
